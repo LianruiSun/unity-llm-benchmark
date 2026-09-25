@@ -112,3 +112,11 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Share only the current Windows benchmark build. Keep local reports and old builds out.
+!/builds/
+/builds/*
+!/builds/Benchmark/
+/builds/Benchmark/BenchmarkLogs/
+**/test.zip
+/test_results/
